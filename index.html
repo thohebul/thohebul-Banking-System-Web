@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Banking</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-primary text-center mt-5 fs-1">Banking Web</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Deposite
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p id="defaultDeposite">0</p>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Withdrow
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p id="defaultWithdrow">0</p>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Amount
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p id="Amount">0</p>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form">
+                            <input id="addDeposite" class="form-control" type="Number" placeholder="Deposite">
+                        </div>
+                        <div class="mt-2">
+                            <button onclick="deposite()" class="btn btn-primary fs-5">Add Deposite</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form">
+                            <input id="withdrowDeposite" class="form-control" type="Number" placeholder="Withdrow">
+                        </div>
+                        <div class="mt-2">
+                            <button onclick="withdrow()" class="btn btn-primary fs-5">Add Withdrow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+        crossorigin="anonymous"></script>
+
+    <!-- Link JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
