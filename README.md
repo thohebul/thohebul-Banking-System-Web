@@ -8,7 +8,8 @@ https://thohebul.github.io/thohebul-Banking-System-Web/
 📂 GitHub Repository
 🔗 Repository:
 https://github.com/thohebul/thohebul-Banking-System-Web
-<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/a822d50a-239a-4921-bccb-23be873e8acd" />
+<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/b8e2458c-3d4f-422f-8a31-54c73ec74faf" />
+
 
 
 To display the screenshot on GitHub, create an images folder in your repository and add the project screenshot with the filename project-preview.png.
